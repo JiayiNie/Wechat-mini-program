@@ -1,0 +1,16 @@
+<image src="{{imgHeader}}" mode="widthFix" ></image>
+
+<!-- <view class="button">
+  <button type="default" plain="true" >2020简章</button>
+  <button type="default" plain="true" bindtap="goto2021">2021简章</button>
+</view> -->
+<view class="box">
+  <view class= "imgline" wx:for = "{{datalist}}" wx:key = "index">
+    <view class="itemRoot" bindtap="goDetail" data-item="{{item}}">
+      <image class="schoolImg" mode="widthFix" src ="{{item.img}}" ></image>
+      <view class="txt">{{item.name}}</view>
+    </view>
+  </view>
+</view>
+
+<view><image src="https://716a-qjjh-0gycpoief2f304db-1305060071.tcb.qcloud.la/cloudbase-cms/upload/2021-03-17/lnuecx5sf3syzn6za3ev79d4an7u4gpx_.jpg" mode="aspectFit" ></image></view>

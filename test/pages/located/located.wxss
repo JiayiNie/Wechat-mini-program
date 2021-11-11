@@ -1,0 +1,26 @@
+/* pages/located/located.wxss */
+.bar{
+  height: 160px ;
+  font-size: 35rpx;
+  margin:10px;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+}
+.title{
+  height: 40px;
+  text-align: center;
+  border-radius: 15px;
+  background: white;
+  font-size:45rpx;
+}
+image{
+  width: 100%;
+}
+page{
+  background: #F2F2F2;
+}
+.whole{
+  margin-left: 10px;
+  margin-right: 10px;
+}

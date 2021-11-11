@@ -1,0 +1,11 @@
+<!--pages/open/open.wxml-->
+
+<image class="bg" mode="aspectFit"></image>
+
+<view class='add_btn'>
+  <button class ="btn" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">
+    点击进入小助手
+  </button>
+</view>
+
+<!-- <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber"><image src="https://716a-qjjh-0gycpoief2f304db-1305060071.tcb.qcloud.la/%E7%99%BB%E5%BD%95%E6%8C%89%E9%92%AE.png?sign=5b2c30dd1448e1f5d56d23a45eff33ed&t=1615116811" mode="scaleToFill" class="buttonImg"></image></button> -->

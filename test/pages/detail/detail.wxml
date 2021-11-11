@@ -1,0 +1,58 @@
+<image src="{{imgHeader}}" mode="widthFix" ></image>
+<!-- <button bindtap="getValue" class="btn">开始定位</button> -->
+<view class="whole">
+<view class="button">
+  <button  class="btn" >2020简章</button>
+  <button  class="btn" bindtap="goDetail">2021简章</button>
+</view>
+<view class="extra"></view>
+<view></view>
+<view class="name">{{detail.name}}</view>
+<view class="box">
+  <view class="left">报名时间</view>
+  <view class="content">{{detail.regTime}}</view>
+</view>
+<view class="box">
+  <view class="left">考试时间</view>
+  <view class="content">{{detail.exaTime}}</view>
+</view>
+<view class="box">
+  <view class="left">报名条件</view>
+  <view class="content">{{detail.regCondition}}</view>
+</view>
+<view class="box">
+  <view class="left">专业设计</view>
+  <view class="content">{{detail.course}}</view>
+</view>
+<view class="box">
+  <view class="left">总招生计划</view>
+  <view class="content">{{detail.enrollPlan}}</view>
+</view>
+<view class="box">
+  <view class="left">限报院校</view>
+  <view class="content">{{detail.limColleges}}</view>
+</view>
+<view class="box">
+  <view class="left">限报专业</view>
+  <view class="content">{{detail.limCourse}}</view>
+</view>
+<view class="box">
+  <view class="left">入围比例</view>
+  <view class="content">{{detail.proportion}}</view>
+</view>
+<view class="box">
+  <view class="left">复审方式</view>
+  <view class="content">{{detail.reviewMethod}}</view>
+</view>
+<view class="box">
+  <view class="left">录取方法</view>
+  <view class="content">{{detail.adminMethod}}</view>
+</view>
+
+<view class="title">强基计划报名地址 提供参考</view>
+<view class="title1"><text user-select='true'>https://bm.chsi.com.cn/jcxkzs/</text></view>
+
+<!-- <view class="txt"><text selectable='true'>https://bm.chsi.com.cn/jcxkzs/</text></view> -->
+
+</view>
+<view><image src="https://716a-qjjh-0gycpoief2f304db-1305060071.tcb.qcloud.la/cloudbase-cms/upload/2021-03-17/lnuecx5sf3syzn6za3ev79d4an7u4gpx_.jpg" mode="aspectFit" ></image></view>

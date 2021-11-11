@@ -1,0 +1,66 @@
+{
+  "pages":[
+
+    "pages/open/open",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/compare/compare",
+    "pages/locate/locate",
+    "pages/located/located",
+    "pages/detail/detail",
+    "pages/detail2/detail2",
+    "pages/detail3/detail3",
+    "pages/detailcp/detailcp",
+    "pages/advisory/advisory",    
+    "pages/signup/signup",
+    "pages/article/article",
+    "pages/subpage1/subpage1",
+    "pages/subpage2/subpage2",
+    "pages/subpage3/subpage3",
+    "pages/subpage4/subpage4",
+    "pages/subpage5/subpage5",
+    "pages/subpage6/subpage6",
+    "pages/subpage4_2/subpage4_2",
+    "pages/subpage3_2/subpage3_2"
+ 
+
+
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "强基小助手",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "iconPath": "/image/homepage.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },
+    {
+      "iconPath": "/image/loupe.png",
+      "pagePath": "pages/search/search",
+      "text": "查询"
+    },
+    {
+      "iconPath": "/image/compare.png",
+      "pagePath": "pages/compare/compare",
+      "text": "比较"
+    },
+    {
+      "iconPath": "/image/rank.png",
+      "pagePath": "pages/locate/locate",
+      "text": "定位"
+    },
+    {
+      "iconPath": "/image/assigment.png",
+      "pagePath": "pages/advisory/advisory",
+      "text": "联系我"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

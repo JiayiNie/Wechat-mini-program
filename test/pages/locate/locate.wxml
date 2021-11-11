@@ -1,0 +1,40 @@
+<!-- pages/locate/locate.wxml -->
+<!-- <view class="extra"></view> -->
+<image src="{{imgHeader}}" mode="widthFix" ></image>
+<image src="https://716a-qjjh-0gycpoief2f304db-1305060071.tcb.qcloud.la/cloudbase-cms/upload/2021-03-31/x28ugb3txrf7cfflya1cwwncem51c5yt_.jpg" mode="widthFix" ></image>
+<view class="whole">
+<!-- <view class="title"><icon type="info" size="30"></icon>特别声明：以上选校定位结果仅供考生家长参考，具体选校定位需参考当年最新政策，可以联系机构老师进一步咨询。</view> -->
+<!-- <view class="extra1"></view> -->
+<!-- <view >
+    <view class="intxt">你的专业方向（文科 / 理科）：{{choice}}</view>
+      <view class="input">
+        <input maxlength="6" bindinput="bindKeyInput" placeholder="输入“文科” 或者 “理科”" placeholder-class="placeholderStyle"/>
+      </view>
+  </view> -->
+  <view>
+  <!-- <view>{{year}}年{{month}}月{{day}}日</view> -->
+  <view class="intxt">拨动选取你的专业方向：{{selection}}</view>
+  <picker-view indicator-style="height: 50px;" style="width: 100%; height: 150px;" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{choice}}" style="line-height: 50px">
+        <view class="picker">{{item}}</view>
+      </view>
+    </picker-view-column>
+    
+  </picker-view>
+</view>
+  <view class="extra2"></view>
+  <view >
+    <view class="intxt">你的高考预估分：{{grade}}</view>
+    <view class="input">
+        <input maxlength="3" bindinput="bindKeyInput1" placeholder="取10进制整数，如640、650" placeholder-class="placeholderStyle"/>
+    </view>
+  </view>
+<view class="extra"></view>
+  <!-- <view class="title"><icon type="info" size="30"></icon>特别声明：以上选校定位结果仅供考生家长参考，具体选校定位需参考当年最新政策，可以联系机构老师进一步咨询。</view> -->
+  
+</view>
+<button bindtap="getValue" class="btn">开始定位</button>
+
+
+

@@ -1,0 +1,15 @@
+.box{
+  margin: 15px;
+  border-radius: 10px;
+  background: white;
+}
+.txt{
+  
+  text-align: center;
+  font-size: 25px;
+  color: #c00000;
+}
+image{
+  width: 100%;
+  height: 20px;
+}

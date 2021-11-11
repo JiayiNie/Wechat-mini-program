@@ -1,0 +1,113 @@
+<image src="{{imgHeader}}" mode="widthFix"></image>
+
+<!-- <view  class="box" wx:for = "{{detail}}" wx:key = "index">
+    
+      <view class="txt">{{detail.name}}</view>
+    
+</view> -->
+<!-- <view class="box">
+  <view  wx:for = "{{detail}}" wx:key = "index">
+    <view  data-item="{{item}}">
+      <view>inhao</view>
+      <view class="txt">{{item.name}}</view>
+    </view>
+  </view>
+</view> -->
+<!-- <view class="xxx">学校</view>
+<block wx:for="{{detail}}" data-item="item" >
+  <view>
+    {{item.name}}
+  </view>
+</block> -->
+<view class="whole">
+<view class="box">
+  <view  class="xxx1" > 学校</view>
+  <view class= "imgline" wx:for = "{{detail}}" wx:key = "index">
+    <view class="itemRoot" data-item="{{item}}">
+      <view class="txt1">{{item.name}}</view>
+    </view>
+  </view>
+</view>
+<view class="box">
+  <view  class="xxx"> 专业设计</view>
+  <view class= "imgline" wx:for = "{{detail}}" wx:key = "index">
+    <view class="itemRoot" data-item="{{item}}">
+      <view class="txt">{{item.course}}</view>
+    </view>
+  </view>
+</view>
+<view class="box">
+  <view  class="xxx"> 报名条件</view>
+  <view class= "imgline" wx:for = "{{detail}}" wx:key = "index">
+    <view class="itemRoot" data-item="{{item}}">
+      <view class="txt">{{item.regCondition}}</view>
+    </view>
+  </view>
+</view>
+<view class="box">
+  <view > 限报专业</view>
+  <view class= "imgline" wx:for = "{{detail}}" wx:key = "index">
+    <view class="itemRoot" data-item="{{item}}">
+      <view class="txt">{{item.limCourse}}</view>
+    </view>
+  </view>
+</view>
+
+<view class="box">
+  <view  class="xxx" > 录取方法</view>
+  <view class= "imgline" wx:for = "{{detail}}" wx:key = "index">
+    <view class="itemRoot" data-item="{{item}}">
+      <view class="txt">{{item.adminMethod}}</view>
+    </view>
+  </view>
+</view>
+
+<view class="box">
+  <view > 入围比例</view>
+  <view class= "imgline" wx:for = "{{detail}}" wx:key = "index">
+    <view class="itemRoot" data-item="{{item}}">
+      <view class="txt">{{item.proportion}}</view>
+    </view>
+  </view>
+</view>
+
+
+<!-- 
+<view class="box">
+  <view class="head1"></view>
+  <view class="head">{{detail1.name}}</view>
+  <view class="head">{{detail2.name}}</view>
+  <view class="head">{{detail3.name}}</view>
+</view>
+<view class="box1">
+  <view class="head1">报名条件</view>
+  <view class="head">{{detail1.regCondition}}</view>
+  <view class="head">{{detail2.regCondition}}</view>
+  <view class="head">{{detail3.regCondition}}</view>
+</view>
+<view class="box1">
+  <view class="head1">专业设计</view>
+  <view class="head">{{detail1.course}}</view>
+  <view class="head">{{detail2.course}}</view>
+  <view class="head">{{detail3.course}}</view>
+</view>
+<view class="box1">
+  <view class="head1">限报专业</view>
+  <view class="head">{{detail1.limCourse}}</view>
+  <view class="head">{{detail2.limCourse}}</view>
+  <view class="head">{{detail3.limCourse}}</view>
+</view>
+<view class="box1">
+  <view class="head1">入围比例</view>
+  <view class="head">{{detail1.proportion}}</view>
+  <view class="head">{{detail2.proportion}}</view>
+  <view class="head">{{detail3.proportion}}</view>
+</view>
+<view class="box1">
+  <view class="head1">录取方法</view>
+  <view class="head">{{detail1.adminMethod}}</view>
+  <view class="head">{{detail2.adminMethod}}</view>
+  <view class="head">{{detail3.adminMethod}}</view>
+</view> -->
+</view>
+ <view><image src="https://716a-qjjh-0gycpoief2f304db-1305060071.tcb.qcloud.la/cloudbase-cms/upload/2021-03-17/lnuecx5sf3syzn6za3ev79d4an7u4gpx_.jpg" mode="aspectFit" ></image></view>

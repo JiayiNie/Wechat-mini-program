@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<image src="{{imgHeader}}" mode="widthFix" ></image>
+
+<view class="whole">
+<swiper class = "banner" indicator-dots indicator-color="rgba(255,255,255,0.5)"
+indicator-active-color="#fff" autoplay interval="3000">
+<swiper-item>
+    <image src = "{{imgUrl5}}" mode="scaleToFill" show-menu-by-longpress></image>
+  </swiper-item>
+  <swiper-item class="bg">
+    <image src = "{{imgUrl1}}" mode="scaleToFill" show-menu-by-longpress></image>
+  </swiper-item>
+  <swiper-item>
+    <image src = "{{imgUrl2}}" mode="scaleToFill" show-menu-by-longpress></image>
+  </swiper-item>
+  <swiper-item>
+    <image src = "{{imgUrl3}}" mode="scaleToFill" show-menu-by-longpress></image>
+  </swiper-item>
+  <swiper-item>
+    <image src = "{{imgUrl4}}" mode="scaleToFill" show-menu-by-longpress></image>
+  </swiper-item>
+  
+</swiper>
+
+<view class="selection">
+  <view bindtap="gotoPageSub1"><image class="select" src="{{title1}}" mode="scaleToFill"></image></view>
+  <view  bindtap="gotoPageSub2"><image class="select" src="{{title2}}" mode="scaleToFill"></image></view>
+  <view bindtap="gotoPageSub3"><image class="select" src="{{title3}}" mode="scaleToFill"></image></view>
+  <!-- <view bindtap="gotoPageSub4"><image class="select" src="{{title4}}" mode="scaleToFill"></image></view> -->
+  <view bindtap="gotoPageSub5"><image class="select" src="{{title5}}" mode="scaleToFill"></image></view>
+  <view bindtap="gotoPageSub4"><image class="select" src="{{title4}}" mode="scaleToFill"></image></view>
+  <!-- <view bindtap="gotoPageSup"><image class="select" src="{{title6}}" mode="scaleToFill"></image></view> -->
+  
+</view>
+
+<view  class="box" wx:for = "{{datalist}}" wx:key = "index">
+    <view data-item="{{item}}" class="bar" bindtap="gotoArticle">
+      <image class="img" src="https://716a-qjjh-0gycpoief2f304db-1305060071.tcb.qcloud.la/cloudbase-cms/upload/2021-03-16/6c7xtmdd2v91ge0m52ycbmf8esvxdh5w_.jpg"></image>
+      <view class="txt">{{item.title}}</view>
+      <text class="txt1" >>>阅读全文</text>
+    </view>
+    <view data-item="{{item}}" class="bar1" bindtap="gotoArticle" >
+      <rich-text class="text" nodes="{{item.content}}"></rich-text>
+      <view class="imgclass"><image class="img1" src="{{item.img}}" mode="aspectFit"></image></view>
+     
+    </view>
+    <!-- <rich-text class="text" nodes="{{item.content}}"></rich-text> -->
+</view>
+
+<view class="extra"></view>
+<view class ="footer"><image src="{{imgFooter}}" mode="aspectFit"  ></image></view>
+<view class="extra1"></view>
+</view>

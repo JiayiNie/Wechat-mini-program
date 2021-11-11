@@ -1,0 +1,36 @@
+/* pages/open/open.wxss */
+.bg{
+  background-image: url(https://716a-qjjh-0gycpoief2f304db-1305060071.tcb.qcloud.la/imgOpen.png?sign=550bfa3d86f5dd5863a4c3a61fdb63ed&t=1615086259);
+  background-repeat:no-repeat; 
+  background-size:100%100%;
+  -moz-background-size:100% 100%;
+  height: 100%;
+  width: 100%;
+  position:fixed;
+  z-index: -1;
+
+}
+page{
+  width: 100%;
+  height: 100%;
+}
+button{
+  background-repeat:no-repeat;
+}
+.buttonImg{
+  width: 400px;
+  height: 30px;
+}
+.add_btn{
+  width: 100%;
+  position: fixed;
+  bottom: 50rpx;
+}
+.btn{
+  margin-top: 30rpx;
+  width: 600rpx;
+  
+  color:  #c00000;
+  border-radius: 70rpx;
+}
+

@@ -1,0 +1,4 @@
+<image src="{{imgHeader}}" mode="widthFix" ></image>
+<view class="title"><icon type="info" size="20"></icon>强基计划报名地址 提供参考</view>
+
+<view class="txt"><text selectable='true'>https://bm.chsi.com.cn/jcxkzs/</text></view>

@@ -1,0 +1,8 @@
+<image src="https://716a-qjjh-0gycpoief2f304db-1305060071.tcb.qcloud.la/cloudbase-cms/upload/2021-03-16/r4pv6zs33laa998vvvckcjuf0fo88fzi_.jpg" mode="widthFix" ></image>
+<view  class="box" wx:for = "{{datalist}}" wx:key = "index">
+  <view class="txt" data-item="{{item}}" bindtap="gotoArticle">
+    <image class="img" src="https://716a-qjjh-0gycpoief2f304db-1305060071.tcb.qcloud.la/cloudbase-cms/upload/2021-03-16/6c7xtmdd2v91ge0m52ycbmf8esvxdh5w_.jpg"></image>
+  <rich-text nodes="   {{item.title}}"></rich-text>
+  </view>
+</view>
+<view><image src="https://716a-qjjh-0gycpoief2f304db-1305060071.tcb.qcloud.la/cloudbase-cms/upload/2021-03-17/lnuecx5sf3syzn6za3ev79d4an7u4gpx_.jpg" mode="aspectFit" ></image></view>
